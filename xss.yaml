@@ -1,0 +1,9 @@
+swagger: "2.0"
+info:
+  title: "Swagger XSS"
+  description: '<img src=x onerror=alert("Swagger2 XSS")>'
+  version: "1.0.0"
+host: "example.com"
+schemes:
+  - https
+paths: {}
